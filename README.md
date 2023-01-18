@@ -1,8 +1,8 @@
 
-# Billboard Demo
+# GearBox Demo
 This demo is based on  https://github.com/ZeaInc/GearBoxDemo
+Modified to include annotations with images.
 
-In addition, Billboards are created with .png (screen grabs from customer meeting, and the tree is displayed. 
 The gear kinamatics have been disabled.
 
 ## Run the demo 
