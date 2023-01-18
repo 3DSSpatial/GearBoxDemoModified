@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Billboard Demo</title>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+
+<body>
+  <div class="App">
+    <div id="leftPanel">
+      <zea-tree-view id="tree" class="select-none"></zea-tree-view>
+    </div>
+    <canvas id="renderer"></canvas>
+  </div>
+</body>
+
+<script crossorigin src="https://cdn.jsdelivr.net/npm/@zeainc/zea-engine@4.3.0-26ac53b/dist/index.umd.js"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/@zeainc/zea-ux@4.0.1/dist/index.umd.js"></script>
+<script crossorigin
+  src="https://cdn.jsdelivr.net/npm/@zeainc/zea-tree-view@0.1.2/dist/index.umd.development.js"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/@zeainc/zea-kinematics@4.0.2/dist/index.umd.js"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/@zeainc/zea-statemachine@2/dist/index.umd.js"></script>
+
+<script src="./js/zea-fps-display.js" type="module"></script>
+<script src="./js/index.js" type="module"></script>
+
+
+</html>
